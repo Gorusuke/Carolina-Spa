@@ -1,0 +1,331 @@
+body{
+    background-color: #f8f8f8;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.btn.focus,
+.btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+h2, h3{
+    font-size: 2.4rem;
+    font-family: 'Lato', sans-serif;
+    line-height: 2.4rem;
+    color: black;
+}
+
+h2 span, h3 span{
+    font-size: 3.8rem;
+    font-family: 'Italianno', cursive;
+    color: #e182a8;
+}
+
+/* Sociales */
+.sociales ul li i{
+    font-size: 1.75rem;
+    color: #e182a8;
+    padding: 3px;
+}
+
+.sociales ul li .fa-facebook-f:hover{color: #3b5998;}
+.sociales ul li .fa-twitter:hover{color: #1da1f2;}
+.sociales ul li .fa-instagram:hover{color: #405de6;}
+.sociales ul li .fa-youtube:hover{color:#ff0000;}
+.sociales ul li .fa-pinterest-p:hover{color: #BD081C;}
+
+/* Navegacion */
+.navegacion{
+    background-color: #1c635c;
+}
+
+.navegacion .boton{
+    border-radius: 5px;
+    color: black;
+    border: none;
+    background-color:white;
+}
+
+.navegacion .nav-principal{
+    background-image: url(../Img/border_horizontal.png),
+                        url(../Img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+.navegacion .container ul li a{
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    transition: all .3s ease;
+}
+
+.navegacion .container ul li a:hover{
+    color: black;
+    background-color: #8ed3cc;
+    transform: scale(1.01, 1.01);
+}
+
+/* Carousel */
+.carousel-caption{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Nuevo Sitio */
+
+.nuevo-sitio{
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+    font-size: 1.65rem;
+}
+
+/* Servicios */
+.imagen-servicio img{
+    border: 6px solid white;
+    transition: all .3s ease;
+}
+
+.imagen-servicio img:hover{
+    transform: scale(1.1) rotate(15deg);
+}
+
+.servicio-info{
+    background-color: white;
+    margin-top: -5rem;
+}
+
+.servicio-info .btn-primary{
+    border-radius: 0;
+    color: white;
+    background-color: #e182a8;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.servicio-info .btn-primary:hover{
+    background-color: #1c635c;
+}
+
+/* Horarios */
+.horario{
+    background-color: #1c635c;
+}
+
+.horario h2{
+    font-size: 2.25rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.horario .table{
+    border: 2px solid #e182a8;
+}
+
+.horario .table thead{
+    background-color: #e182a8;
+}
+
+.horario .table td,
+.horario .table thead th{
+    border: none;
+}
+
+.horario .table tbody tr td{
+    padding: .4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.bg-horario{
+    background-image: url(../img/bg_horarios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    opacity: .75;
+}
+
+/* Productos */
+
+.productos .card{
+    border: none;
+}
+
+.productos .card a{
+    text-decoration: none;
+    color: black;
+}
+
+.productos .card h4{
+    color: #e182a8;
+    font-family: 'Lato', sans-serif;
+}
+
+.productos .card .precio{
+    font-size: 1.5rem;
+    color: #979797;
+    font-weight: 600;
+}
+
+/* Citas */
+.citas{
+    background-image: url(../Img/bg_citas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    opacity: .9;
+}
+
+.citas h3{
+    font-size: 3.4rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2rem;
+}
+
+.citas p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.citas .btn{
+    background-color: #e182a8;
+    border: none;
+    padding: 12px 4rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.citas .btn:hover{
+    background-color: #1c635c;
+    border: none;
+}
+
+footer .copyright{
+    color: #979797;
+    font-size: .98rem;
+}
+
+/* Hero */
+.hero{
+    position: relative;
+}
+
+.hero h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #1c635c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.contenido-principal p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Sidebar */
+aside{
+    background-color: #1c635c;
+    color: white;
+}
+
+/* Servicios Card */
+#servicios .card-header{
+    background-color: #e182a8;
+    padding: 0 1.25rem;
+}
+
+#servicios .card-header .boton{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+}
+
+#servicios .card-body{
+    font-size: 1.15rem;
+}
+
+/* Cupon */
+aside h3{
+    font-size: 2.25rem;
+    color: white;
+}
+
+aside .cupon{
+    border: 3px dashed white;
+    font-family: 'Lato', sans-serif;
+}
+aside .cupon p{
+    font-size: 1.1rem;
+}
+
+aside .cupon .descuento{
+    font-size: 2.2rem;
+}
+
+.card .card-body h2{
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.formulario-contacto{
+    border: 2px solid #9a9a9a;
+    background-color: white;
+}
+
+.formulario-contacto textarea{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.btn-primary{
+    border-radius: 6px;
+    color: white;
+    background-color: #e182a8;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: .5rem 3rem;
+}
+
+.btn-primary:hover{
+    background-color: #1c635c;
+}
+
+
+@media (max-width:575px){
+    .citas h3{
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width:767px){
+
+    .navegacion .container ul li a{
+        font-size: 1.3rem;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width:991px){
+
+    .servicio-info h3{
+        font-size: 1.75rem;
+    }
+}
